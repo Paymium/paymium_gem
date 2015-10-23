@@ -1,6 +1,6 @@
-require "bundler/gem_tasks"
+require 'bundler/gem_tasks'
 
-desc "Open an irb session preloaded with this library"
+desc 'Open an irb session preloaded with this library'
 task :console do
-  sh "irb -rubygems -I lib -r paymium_api.rb"
+  sh 'irb -Ilib -r paymium.rb'
 end
