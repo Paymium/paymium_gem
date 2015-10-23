@@ -9,3 +9,13 @@ Oj.default_options = {
 require 'paymium/client'
 require 'paymium/version'
 
+#
+# Root module
+#
+module Paymium
+
+  # Default API host
+  DEFAULT_HOST = 'https://paymium.com/api/v1'
+
+end
+

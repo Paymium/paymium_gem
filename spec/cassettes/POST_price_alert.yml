@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://staging.paymium.com/api/v1/user/price_alerts
+    body:
+      encoding: UTF-8
+      string: '{"notify_above":10,"notify_below":5,"token":"hello token!"}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - staging.paymium.com
+      Content-Type:
+      - application/json
+      Api-Key:
+      - 48e96b524542df67f8f475ec43903eaa828db00f67036fa83dd42328a41c9615
+      Api-Nonce:
+      - 1445599648963116
+      Api-Signature:
+      - 0f7b339745f7cd76a71ac353c46877080a84f80d4de586a923448086e2a49a99
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - nginx/1.7.8
+      Date:
+      - Fri, 23 Oct 2015 11:27:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 201 Created
+      Etag:
+      - '"7215ee9c7d9dc229d2921a40e899ec5f"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c712ba69-c24b-44d4-a8cf-1ddb3863024f
+      X-Ratelimit-Limit:
+      - '86400'
+      X-Ratelimit-Remaining:
+      - '86353'
+      X-Runtime:
+      - '0.035865'
+      X-Powered-By:
+      - Phusion Passenger 4.0.55
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, DELETE, POST, OPTIONS
+      Access-Control-Allow-Headers:
+      - Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization
+    body:
+      encoding: UTF-8
+      string: ' '
+    http_version: 
+  recorded_at: Fri, 23 Oct 2015 11:27:29 GMT
+recorded_with: VCR 2.9.3

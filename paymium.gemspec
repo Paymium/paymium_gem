@@ -20,6 +20,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov',  '~> 0.10.0'
   spec.add_development_dependency 'yard',       '~> 0'
   spec.add_development_dependency 'coveralls',  '~> 0.7'
+  spec.add_development_dependency 'vcr',        '~> 2.9'
+  spec.add_development_dependency 'webmock',    '~> 1.0'
 
   spec.require_path = 'lib'
   spec.files        = Dir['{bin,lib}/**/*', 'LICENSE', 'README.md']

@@ -1,0 +1,408 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://paymium.com/data/eur/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - paymium.com
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.7.8
+      Date:
+      - Fri, 23 Oct 2015 11:11:30 GMT
+      Content-Type:
+      - text/html
+      Last-Modified:
+      - Fri, 16 Oct 2015 15:23:42 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Etag:
+      - W/"5621167e-1e9d"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFET0NUWVBFIGh0bWw+PGh0bWwgbGFuZz0iZW4iPjxoZWFkPjx0aXRsZT5Q
+        YXltaXVtIHwgVGhlIEV1cm9wZWFuIGV4Y2hhbmdlPC90aXRsZT48bGluayBo
+        cmVmPSIvMTQ0NTAwOTAwODQ3MC9jc3Mvc3R5bGUuY3NzIiByZWw9InN0eWxl
+        c2hlZXQiPjxsaW5rIGhyZWY9Ii8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3Nz
+        P2ZhbWlseT1Sb2JvdG86NDAwLDcwMCIgcmVsPSJzdHlsZXNoZWV0IiB0eXBl
+        PSJ0ZXh0L2NzcyI+PGxpbmsgaHJlZj0iLy9mb250cy5nb29nbGVhcGlzLmNv
+        bS9jc3M/ZmFtaWx5PVJhbGV3YXk6NDAwLDMwMCIgcmVsPSJzdHlsZXNoZWV0
+        IiB0eXBlPSJ0ZXh0L2NzcyI+PG1ldGEgY2hhcnNldD0idXRmLTgiPjxtZXRh
+        IG5hbWU9ImRlc2NyaXB0aW9uIiBjb250ZW50PSJCdXkgYW5kIHNlbGwgQml0
+        Y29pbnMgd2l0aCBlYXNlIG9uIHRoZSBFdXJvcGVhbiBleGNoYW5nZS4gQWNo
+        ZXRleiBldCB2ZW5kZXogZGVzIEJpdGNvaW5zIGVuIHRvdXRlIHNpbXBsaWNp
+        dMOpIHN1ciBsYSBwbGFjZSBkZSBtYXJjaMOpIEV1cm9ww6llbm5lLiI+PG1l
+        dGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0
+        aCxpbml0aWFsLXNjYWxlPTEuMCxtYXhpbXVtLXNjYWxlPTEsdXNlci1zY2Fs
+        YWJsZT1ubyxtaW5pbWFsLXVpIj48bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29u
+        dGVudD0iaW5pdGlhbC1zY2FsZT0xLjAsdXNlci1zY2FsYWJsZT1ubyxtYXhp
+        bXVtLXNjYWxlPTEsbWluaW1hbC11aSIgbWVkaWE9IihkZXZpY2UtaGVpZ2h0
+        OiA1NjhweCkiPjxtZXRhIG5hbWU9ImFwcGxlLW1vYmlsZS13ZWItYXBwLWNh
+        cGFibGUiIGNvbnRlbnQ9InllcyI+PG1ldGEgbmFtZT0iYXBwbGUtbW9iaWxl
+        LXdlYi1hcHAtc3RhdHVzLWJhci1zdHlsZSIgY29udGVudD0iYmxhY2siPjxs
+        aW5rIHJlbD0iaWNvbiIgdHlwZT0iaW1hZ2UvcG5nIiBocmVmPSIvMTQ0NTAw
+        OTAwODQ3MC9mYXZpY29uLnBuZyI+PGxpbmsgcmVsPSJhcHBsZS10b3VjaC1p
+        Y29uLXByZWNvbXBvc2VkIiBocmVmPSIvMTQ0NTAwOTAwODQ3MC9wYWNrYWdp
+        bmcvQXBwSWNvbjc2eDc2LnBuZyIgc2l6ZXM9Ijc2eDc2Ij48bGluayByZWw9
+        ImFwcGxlLXRvdWNoLWljb24tcHJlY29tcG9zZWQiIGhyZWY9Ii8xNDQ1MDA5
+        MDA4NDcwL3BhY2thZ2luZy9BcHBJY29uNzZ4NzZAMngucG5nIiBzaXplcz0i
+        MTUyeDE1MiI+PGxpbmsgcmVsPSJhcHBsZS10b3VjaC1pY29uLXByZWNvbXBv
+        c2VkIiBocmVmPSIvMTQ0NTAwOTAwODQ3MC9wYWNrYWdpbmcvQXBwSWNvbjYw
+        eDYwLnBuZyIgc2l6ZXM9IjYweDYwIj48bGluayByZWw9ImFwcGxlLXRvdWNo
+        LWljb24tcHJlY29tcG9zZWQiIGhyZWY9Ii8xNDQ1MDA5MDA4NDcwL3BhY2th
+        Z2luZy9BcHBJY29uNjB4NjBAMngucG5nIiBzaXplcz0iMTIweDEyMCI+PGxp
+        bmsgcmVsPSJhcHBsZS10b3VjaC1zdGFydHVwLWltYWdlIiBocmVmPSIvMTQ0
+        NTAwOTAwODQ3MC9wYWNrYWdpbmcvQXBwU3BsYXNoNDYwLnBuZyI+PGxpbmsg
+        cmVsPSJhcHBsZS10b3VjaC1zdGFydHVwLWltYWdlIiBocmVmPSIvMTQ0NTAw
+        OTAwODQ3MC9wYWNrYWdpbmcvQXBwU3BsYXNoOTIwLnBuZyIgc2l6ZXM9IjY0
+        MMOXOTIwIj48bGluayByZWw9ImFwcGxlLXRvdWNoLXN0YXJ0dXAtaW1hZ2Ui
+        IGhyZWY9Ii8xNDQ1MDA5MDA4NDcwL3BhY2thZ2luZy9BcHBTcGxhc2gxMDk2
+        LnBuZyIgbWVkaWE9IihkZXZpY2UtaGVpZ2h0OiA1NjhweCkiPjwvaGVhZD48
+        Ym9keSBjbGFzcz0ic2hvdy1zaWRlLWJhciI+PG5vc2NyaXB0PjxpZnJhbWU+
+        PC9pZnJhbWU+PHNyYz4vL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ucy5o
+        dG1sP2lkPUdUTS1UMk02VjQ8L3NyYz48L25vc2NyaXB0PjxzY3JpcHQ+KGZ1
+        bmN0aW9uKHcsZCxzLGwsaSl7d1tsXT13W2xdfHxbXTt3W2xdLnB1c2goeydn
+        dG0uc3RhcnQnOiBuZXcgRGF0ZSgpLmdldFRpbWUoKSxldmVudDonZ3RtLmpz
+        J30pO3ZhciBmPWQuZ2V0RWxlbWVudHNCeVRhZ05hbWUocylbMF0sIGo9ZC5j
+        cmVhdGVFbGVtZW50KHMpLGRsPWwhPSdkYXRhTGF5ZXInPycmbD0nK2w6Jyc7
+        ai5hc3luYz10cnVlO2ouc3JjPSAnLy93d3cuZ29vZ2xldGFnbWFuYWdlci5j
+        b20vZ3RtLmpzP2lkPScraStkbDtmLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3Jl
+        KGosZik7IH0pKHdpbmRvdyxkb2N1bWVudCwnc2NyaXB0JywnZGF0YUxheWVy
+        JywnR1RNLVQyTTZWNCcpOzwvc2NyaXB0PjxkaXYgaWQ9InNpZGUtYmFyIj48
+        L2Rpdj48ZGl2IGlkPSJhbm5vdW5jZW1lbnQiPjwvZGl2PjxkaXYgaWQ9InVz
+        ZXItbWVzc2FnZSI+PC9kaXY+PGRpdiBpZD0iY29udGFpbmVyIj48aGVhZGVy
+        PjxkaXYgY2xhc3M9ImhlYWRlciI+PGRpdiBpZD0ibWFpbi1uYXYiIGNsYXNz
+        PSJuYXZiYXIgbmF2YmFyLXN0YXRpYy10b3AiPjxkaXYgY2xhc3M9Im5hdmJh
+        ci1pbm5lciI+PGRpdiBjbGFzcz0icm93LWZsdWlkIj48YSBocmVmPSIjIiBk
+        YXRhLXRvZ2dsZT0iY29sbGFwc2UiIGRhdGEtdGFyZ2V0PSIubmF2LWNvbGxh
+        cHNlIiBjbGFzcz0iYnRuIGJ0bi1uYXZiYXIiPjxzcGFuIGNsYXNzPSJpY29u
+        LWJhciI+PC9zcGFuPjxzcGFuIGNsYXNzPSJpY29uLWJhciI+PC9zcGFuPjxz
+        cGFuIGNsYXNzPSJpY29uLWJhciI+PC9zcGFuPjwvYT48YSBocmVmPSIvIiBj
+        bGFzcz0iYnJhbmQiPlBheW1pdW0gfCBUaGUgRXVyb3BlYW4gZXhjaGFuZ2U8
+        L2E+PGRpdiBjbGFzcz0ibmF2LWNvbGxhcHNlIGNvbGxhcHNlIj48ZGl2IGlk
+        PSJtYWluLXNlY3Rpb25zIj48dWwgY2xhc3M9Im5hdiI+PGxpIGRhdGEtYWN0
+        aXZhdGUtb249Im1lcmNoYW50cyI+PGEgaHJlZj0iL3BhZ2UvbWVyY2hhbnRz
+        Ij5NZXJjaGFudHM8L2E+PC9saT48bGkgZGF0YS1hY3RpdmF0ZS1vbj0ic3Rh
+        dHMiPjxhIGhyZWY9Ii9wYWdlL3N0YXRzIj5TdGF0czwvYT48L2xpPjxsaSBk
+        YXRhLWFjdGl2YXRlLW9uPSJoZWxwIj48YSBocmVmPSIvcGFnZS9oZWxwIj5I
+        ZWxwPC9hPjwvbGk+PC91bD48L2Rpdj48ZGl2IGlkPSJ1c2VyLW5hdiI+PHVs
+        IGNsYXNzPSJuYXYgcHVsbC1yaWdodCI+PGxpIGlkPSJoZWFkZXItbG9nLWlu
+        IiBjbGFzcz0iZm9ybS1pbmxpbmUgaGlkZGVuLXBob25lIj48Zm9ybT48aW5w
+        dXQgaWQ9ImhlYWRlci1sb2ctaW4tbmFtZSIgdHlwZT0idGV4dCIgbmFtZT0i
+        dXNlcm5hbWUiIHJlcXVpcmVkPSJyZXF1aXJlZCIgcGxhY2Vob2xkZXI9IkVt
+        YWlsIG9yIGFjY291bnQgbnVtYmVyIj48aW5wdXQgaWQ9ImhlYWRlci1sb2ct
+        aW4tcGFzc3dvcmQiIHR5cGU9InBhc3N3b3JkIiBuYW1lPSJwYXNzd29yZCIg
+        cmVxdWlyZWQ9InJlcXVpcmVkIiBhdXRvY29tcGxldGU9Im9mZiIgcGxhY2Vo
+        b2xkZXI9IlBhc3N3b3JkIj48YnV0dG9uIHR5cGU9InN1Ym1pdCIgY2xhc3M9
+        ImJ0biBidG4tcHJpbWFyeSI+TG9nIGluPC9idXR0b24+PC9mb3JtPjxhIGlk
+        PSJoZWFkZXItbG9nLWluLWZvcmdvdC1wYXNzd29yZCIgaHJlZj0iL3BhZ2Uv
+        Zm9yZ290LXBhc3N3b3JkIj5Gb3Jnb3QgeW91ciBwYXNzd29yZD88L2E+PGEg
+        aWQ9ImhlYWRlci1sb2ctaW4tc2lnbi11cCIgaHJlZj0iL3BhZ2Uvc2lnbi11
+        cCI+U2lnbiB1cDwvYT48L2xpPjxsaSBjbGFzcz0idmlzaWJsZS1waG9uZSI+
+        PGEgaHJlZj0iL3BhZ2Uvc2lnbi11cCI+U2lnbiB1cDwvYT48L2xpPjxsaSBj
+        bGFzcz0idmlzaWJsZS1waG9uZSI+PGEgaHJlZj0iL3BhZ2UvbG9nLWluIj5M
+        b2cgaW48L2E+PC9saT48L3VsPjwvZGl2PjwvZGl2PjwvZGl2PjwvZGl2Pjwv
+        ZGl2PjwvZGl2PjwvaGVhZGVyPjxkaXYgaWQ9ImFsZXJ0cyI+PC9kaXY+PGRp
+        diBpZD0iY29udGVudCI+PGRpdiBjbGFzcz0iaG9tZSI+PGRpdiBjbGFzcz0i
+        aGVyby11bml0Ij48ZGl2IGNsYXNzPSJjb250ZW50IHJvdy1mbHVpZCI+PGRp
+        diBjbGFzcz0ic3BhbjYiPjxoMT48ZW0+QnV5PC9lbT4gYW5kIDxlbT5zZWxs
+        PC9lbT4gPGJyPkJpdGNvaW48L2gxPjxwPlRoZSBFdXJvcGVhbiA8ZW0+ZXhj
+        aGFuZ2U8L2VtPjwvcD48ZGl2IGNsYXNzPSJ3aWRnZXRzIj48L2Rpdj48L2Rp
+        dj48ZGl2IGNsYXNzPSJzcGFuNiBoaWRkZW4tcGhvbmUiPjxmb3JtPjxsZWdl
+        bmQ+TmV3IHRvIFBheW1pdW0/PC9sZWdlbmQ+PGRpdiBpZD0iZXJyb3JzIj48
+        L2Rpdj48ZmllbGRzZXQ+PGxhYmVsPkFjY291bnQgdHlwZTwvbGFiZWw+PGxh
+        YmVsIGNsYXNzPSJyYWRpbyBpbmxpbmUiPjxpbnB1dCB0eXBlPSJyYWRpbyIg
+        bmFtZT0idHlwZSIgdmFsdWU9IlVzZXIiIGNoZWNrZWQ9ImNoZWNrZWQiPlBl
+        cnNvbmFsPC9sYWJlbD48bGFiZWwgY2xhc3M9InJhZGlvIGlubGluZSI+PGlu
+        cHV0IHR5cGU9InJhZGlvIiBuYW1lPSJ0eXBlIiB2YWx1ZT0iQ29ycG9yYXRl
+        VXNlciI+TWVyY2hhbnQgb3IgQ29ycG9yYXRlPC9sYWJlbD48YnI+PGlucHV0
+        IGlkPSJlbWFpbCIgdHlwZT0iZW1haWwiIG5hbWU9ImVtYWlsIiByZXF1aXJl
+        ZD0icmVxdWlyZWQiIHBsYWNlaG9sZGVyPSJFbWFpbCIgY2xhc3M9ImlucHV0
+        LXhsYXJnZSI+PGlucHV0IGlkPSJwYXNzd29yZCIgdHlwZT0icGFzc3dvcmQi
+        IG5hbWU9InBhc3N3b3JkIiByZXF1aXJlZD0icmVxdWlyZWQiIHBsYWNlaG9s
+        ZGVyPSJQYXNzd29yZCIgY2xhc3M9ImlucHV0LXhsYXJnZSI+PGlucHV0IGlk
+        PSJwYXNzd29yZC1jb25maXJtYXRpb24iIHR5cGU9InBhc3N3b3JkIiBuYW1l
+        PSJwYXNzd29yZC1jb25maXJtYXRpb24iIHJlcXVpcmVkPSJyZXF1aXJlZCIg
+        cGxhY2Vob2xkZXI9IkNvbmZpcm0gcGFzc3dvcmQiIGNsYXNzPSJpbnB1dC14
+        bGFyZ2UiPjxkaXYgaWQ9ImNhcHRjaGEiPjwvZGl2PjwvZmllbGRzZXQ+PGJ1
+        dHRvbiB0eXBlPSJzdWJtaXQiIGNsYXNzPSJidG4gYnRuLXByaW1hcnkiPlNp
+        Z24gdXAgZm9yIFBheW1pdW08L2J1dHRvbj48L2Zvcm0+PC9kaXY+PC9kaXY+
+        PGRpdiBjbGFzcz0icm93LWZsdWlkIHN0YXRzIj48ZGl2IGNsYXNzPSJzcGFu
+        NCBiZXN0LWJ1eS1vZmZlciI+PGRpdiBjbGFzcz0icHJpY2UiPjxkaXYgY2xh
+        c3M9ImxvYWRpbmciPkxvYWRpbmcuLi48L2Rpdj48L2Rpdj48ZGl2IGNsYXNz
+        PSJ0aXRsZSI+YmVzdCBidXkgb2ZmZXI8L2Rpdj48L2Rpdj48ZGl2IGNsYXNz
+        PSJzcGFuNCBsYXRlc3QtcHJpY2UiPjxkaXYgY2xhc3M9InByaWNlIj48ZGl2
+        IGNsYXNzPSJsb2FkaW5nIj5Mb2FkaW5nLi4uPC9kaXY+PC9kaXY+PGRpdiBj
+        bGFzcz0idGl0bGUiPmxhdGVzdCBwcmljZTwvZGl2PjwvZGl2PjxkaXYgY2xh
+        c3M9InNwYW40IGJlc3Qtc2VsbC1vZmZlciI+PGRpdiBjbGFzcz0icHJpY2Ui
+        PjxkaXYgY2xhc3M9ImxvYWRpbmciPkxvYWRpbmcuLi48L2Rpdj48L2Rpdj48
+        ZGl2IGNsYXNzPSJ0aXRsZSI+YmVzdCBzZWxsIG9mZmVyPC9kaXY+PC9kaXY+
+        PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0icm93LWZsdWlkIGZlYXR1cmVzIGhp
+        ZGRlbi1waG9uZSI+PGRpdiBjbGFzcz0ic3BhbjYgaGlkZGVuLXBob25lIj48
+        aDM+Q29tcGxpYW5jZSA6IEV1cm8gcGF5bWVudCBhY2NvdW50cyBoZWxkIGJ5
+        IGFuIGFwcHJvdmVkIFBheW1lbnQgSW5zdGl0dXRpb24uPC9oMz48cD5FYWNo
+        IGN1c3RvbWVyIGFjY291bnQgaXMgbGlua2VkIHRvIGEgcGF5bWVudCBhY2Nv
+        dW50IGhlbGQgZm9yIHlvdSBieSBhIDxzdHJvbmc+bGljZW5zZWQgUGF5bWVu
+        dCBJbnN0aXR1dGlvbiBwYXJ0bmVyPC9zdHJvbmc+OiB5b3Ugc2VuZCBldXJv
+        cyB0byBhbiBhY2NvdW50IG93bmVkIGJ5IHlvdSB0byBwdXJjaGFzZSBiaXRj
+        b2lucy48L3A+CjxwPllvdXIgd2l0aGRyYXcgcmVxdWVzdHMgYXJlIHRyYW5z
+        bWl0dGVkIGRpcmVjdGx5IHRvIG91ciBQYXltZW50IEluc3RpdHV0aW9uIHBh
+        cnRuZXIuPC9wPjwvZGl2PjxkaXYgY2xhc3M9InNwYW42Ij48aDM+MTAwJSBD
+        b2xkIFN0b3JhZ2U6IHRoZSBtb3N0IHNlY3VyZSBiaXRjb2lucy48L2gzPjxw
+        PldlIGFwcGx5IGEgMTAwJSBjb2xkIHN0b3JhZ2UgcG9saWN5IG9uIGFsbCBi
+        aXRjb2lucyBzZW50IHRvIHlvdXIgUGF5bWl1bSBhY2NvdW50LjwvcD4KPHA+
+        Tm8gYml0Y29pbnMgYXJlIHN0b3JlZCBvbiBjdXN0b21lci1mYWNpbmcgc2Vy
+        dmVyczogcHJpdmF0ZSBrZXlzIGFyZSBoZWxkIGluIDxzdHJvbmc+YmFuayB2
+        YXVsdHMgbG9jYXRlZCBpbiBzZXZlcmFsIGNpdGllczwvc3Ryb25nPi4gV2Ug
+        dXNlIHNlY3JldCBzcGxpdHRpbmcgdGVjaG5pcXVlcyB0byBlbnN1cmUgdGhh
+        dCBubyBiaXRjb2luIGNhbiBiZSBzdG9sZW4gZXZlbiBpZiBhIGJhbmsgdmF1
+        bHQgaXMgY29tcHJvbWlzZWQuPC9wPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9
+        InJvdy1mbHVpZCI+PGRpdiBjbGFzcz0ic3BhbjEyIj48ZGl2IGNsYXNzPSJv
+        aGxjdiI+PC9kaXY+PC9kaXY+PC9kaXY+PC9kaXY+PC9kaXY+PGRpdiBpZD0i
+        cHVzaCI+PC9kaXY+PC9kaXY+PGZvb3Rlcj48ZGl2IGNsYXNzPSJmb290ZXIi
+        PjxkaXYgaWQ9InNvY2lhbCIgY2xhc3M9InJvdy1mbHVpZCBoaWRkZW4tcGhv
+        bmUiPjxkaXYgY2xhc3M9InNwYW4zIG9mZnNldDYgdHdpdHRlciI+PC9kaXY+
+        PGRpdiBjbGFzcz0ic3BhbjMgZmFjZWJvb2siPjwvZGl2PjwvZGl2PjxkaXYg
+        aWQ9ImxpbmtzIiBjbGFzcz0icm93LWZsdWlkIj48ZGl2IGNsYXNzPSJzcGFu
+        MyBoaWRkZW4tcGhvbmUiPjxoNT5QYXltaXVtPC9oNT48dWw+PGxpPjxhIGhy
+        ZWY9Ii9wYWdlL2NvbXBhbnkvYWJvdXQiPkFib3V0PC9hPjwvbGk+PGxpPjxh
+        IGhyZWY9Ii9wYWdlL2NvbXBhbnkvcHJlc3MiPlByZXNzPC9hPjwvbGk+PGxp
+        PjxhIGhyZWY9Ii9wYWdlL2NvbXBhbnkvY29udGFjdCI+Q29udGFjdDwvYT48
+        L2xpPjxsaT48YSBocmVmPSJodHRwczovL2Jsb2cucGF5bWl1bS5jb20iIHRh
+        cmdldD0iX2JsYW5rIj5CbG9nPC9hPjwvbGk+PC91bD48L2Rpdj48ZGl2IGNs
+        YXNzPSJzcGFuMyBoaWRkZW4tcGhvbmUiPjxoNT5IZWxwPC9oNT48dWw+PGxp
+        PjxhIGhyZWY9Ii9wYWdlL2hlbHAvZmFxIj5GcmVxdWVudGx5IEFza2VkIFF1
+        ZXN0aW9uczwvYT48L2xpPjxsaT48YSBocmVmPSIvcGFnZS9oZWxwL2ZlZXMi
+        PkZlZXM8L2E+PC9saT48bGk+PGEgaHJlZj0iL3BhZ2UvZGV2ZWxvcGVycyI+
+        RGV2ZWxvcGVyczwvYT48L2xpPjwvdWw+PC9kaXY+PGRpdiBjbGFzcz0ic3Bh
+        bjMiPjxoNT5MZWdhbDwvaDU+PHVsPjxsaT48YSBocmVmPSIvcGFnZS9sZWdh
+        bC1ub3RlcyI+TGVnYWwgbm90ZXM8L2E+PC9saT48bGk+PGEgaHJlZj0iL3Bh
+        Z2UvdG9zIj5UZXJtcyBvZiBzZXJ2aWNlPC9hPjwvbGk+PGxpPjxhIGhyZWY9
+        Ii9wYWdlL3dhcm5pbmciPldhcm5pbmc8L2E+PC9saT48L3VsPjwvZGl2Pjxk
+        aXYgaWQ9Imxhbmd1YWdlcyIgY2xhc3M9InNwYW4zIj48aDU+TGFuZ3VhZ2U8
+        L2g1Pjx1bD48bGk+PGEgaHJlZj0iIyIgaWQ9ImVuIj5FbmdsaXNoPC9hPjwv
+        bGk+PGxpPjxhIGhyZWY9IiMiIGlkPSJmciI+RnJhbsOnYWlzPC9hPjwvbGk+
+        PC91bD48L2Rpdj48L2Rpdj48ZGl2IGlkPSJjb3B5cmlnaHQiIGNsYXNzPSJy
+        b3ctZmx1aWQgaGlkZGVuLXBob25lIj48ZGl2IGNsYXNzPSJzcGFuMTIgdGV4
+        dC1jZW50ZXIiPsKpIDIwMTEtMjAxNSBQYXltaXVtPC9kaXY+PC9kaXY+PC9k
+        aXY+PC9mb290ZXI+PGRpdiBpZD0ic3BsYXNoIj48ZGl2IGNsYXNzPSJjb250
+        YWluZXIiPjxwPlBheW1pdW0gaXMgbG9hZGluZy4uLjwvcD48ZGl2IGNsYXNz
+        PSJwcm9ncmVzcyBwcm9ncmVzcy1zdHJpcGVkIGFjdGl2ZSI+PGRpdiBzdHls
+        ZT0id2lkdGg6MTAwJSIgY2xhc3M9ImJhciI+PC9kaXY+PC9kaXY+PC9kaXY+
+        PC9kaXY+PHNjcmlwdCBzcmM9Ii8xNDQ1MDA5MDA4NDcwL2pzL2RlcHMuanMi
+        Pjwvc2NyaXB0PjxzY3JpcHQgc3JjPSIvMTQ0NTAwOTAwODQ3MC9qcy9jb3Jl
+        LmpzIj48L3NjcmlwdD48c2NyaXB0IHNyYz0iLy93d3cuZ29vZ2xlLmNvbS9y
+        ZWNhcHRjaGEvYXBpL2pzL3JlY2FwdGNoYV9hamF4LmpzIj48L3NjcmlwdD48
+        c2NyaXB0PnJlcXVpcmUoJ2Jvb3RzdHJhcCcpOwo8L3NjcmlwdD48L2JvZHk+
+        PC9odG1sPg==
+    http_version: 
+  recorded_at: Fri, 23 Oct 2015 11:11:31 GMT
+- request:
+    method: get
+    uri: https://paymium.com/api/v1/data/eur/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - paymium.com
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.7.8
+      Date:
+      - Fri, 23 Oct 2015 11:17:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Etag:
+      - '"b0e2e780cf59bc9a6aa0e445d1049642"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5100f6c9-d4e7-41df-98a8-4b9ec6fd738f
+      X-Ratelimit-Limit:
+      - '86400'
+      X-Ratelimit-Remaining:
+      - '62218'
+      X-Runtime:
+      - '0.008669'
+      X-Powered-By:
+      - Phusion Passenger 4.0.13
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, DELETE, POST, OPTIONS
+      Access-Control-Allow-Headers:
+      - Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization
+    body:
+      encoding: UTF-8
+      string: '{"high":247.0,"low":237.01,"volume":138.99218415,"bid":243.21,"ask":243.9,"midpoint":243.555,"vwap":242.91201876,"at":1445598812,"price":244.0,"open":239.99,"variation":1.6709,"currency":"EUR","trade_id":"16a64987-293f-4d0d-b295-9f5acc338247","size":0.05}'
+    http_version: 
+  recorded_at: Fri, 23 Oct 2015 11:17:23 GMT
+- request:
+    method: get
+    uri: https://paymium.com/api/v1/data/eur/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - paymium.com
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.7.8
+      Date:
+      - Fri, 23 Oct 2015 11:17:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Etag:
+      - '"b0e2e780cf59bc9a6aa0e445d1049642"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 93c4bd70-75ad-4c91-8eac-41a3c4a5466f
+      X-Ratelimit-Limit:
+      - '86400'
+      X-Ratelimit-Remaining:
+      - '62216'
+      X-Runtime:
+      - '0.012401'
+      X-Powered-By:
+      - Phusion Passenger 4.0.13
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, DELETE, POST, OPTIONS
+      Access-Control-Allow-Headers:
+      - Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization
+    body:
+      encoding: UTF-8
+      string: '{"high":247.0,"low":237.01,"volume":138.99218415,"bid":243.21,"ask":243.9,"midpoint":243.555,"vwap":242.91201876,"at":1445598812,"price":244.0,"open":239.99,"variation":1.6709,"currency":"EUR","trade_id":"16a64987-293f-4d0d-b295-9f5acc338247","size":0.05}'
+    http_version: 
+  recorded_at: Fri, 23 Oct 2015 11:17:37 GMT
+- request:
+    method: get
+    uri: https://staging.paymium.com/api/v1/data/eur/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - staging.paymium.com
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.7.8
+      Date:
+      - Fri, 23 Oct 2015 11:21:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Etag:
+      - '"86c9b49bda85c21937ca8694a2efc8f1"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9a87d653-d0cb-4407-bf0d-4aa02c77396d
+      X-Ratelimit-Limit:
+      - '86400'
+      X-Ratelimit-Remaining:
+      - '86370'
+      X-Runtime:
+      - '0.645824'
+      X-Powered-By:
+      - Phusion Passenger 4.0.55
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, DELETE, POST, OPTIONS
+      Access-Control-Allow-Headers:
+      - Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization
+    body:
+      encoding: UTF-8
+      string: '{"high":222.99986999,"low":222.99986999,"volume":0.13452922,"bid":219.5,"ask":222.99986999,"midpoint":221.249934995,"vwap":222.99986999,"at":1445549760,"price":222.99986999,"open":219.5,"variation":1.5945,"currency":"EUR","trade_id":"afe30aa6-0b48-4132-a158-61c886259792","size":0.13452922}'
+    http_version: 
+  recorded_at: Fri, 23 Oct 2015 11:21:12 GMT
+recorded_with: VCR 2.9.3

@@ -1,3 +1,6 @@
 module Paymium
-  VERSION = "0.0.1"
+
+  # The gem version
+  VERSION = '0.0.1'
+
 end
