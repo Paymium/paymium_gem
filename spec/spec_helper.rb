@@ -19,6 +19,7 @@ end
 
 require(File.expand_path('../../lib/paymium', __FILE__))
 
+Paymium.send(:remove_const, :DEFAULT_HOST)
 Paymium::DEFAULT_HOST = 'https://staging.paymium.com/api/v1'
 
 RSpec.configure do |config|
