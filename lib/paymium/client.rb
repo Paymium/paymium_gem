@@ -40,7 +40,7 @@ module Paymium
     # @param params [Hash] The request parameters
     #
     def post(path, params = {}, &block)
-      req       = Net::HTTP::Post.new(uri_from_path(path), {})
+      req       = Net::HTTP::Post.new(uri_from_path(path))
       req.body  = Oj.dump(params)
       request(req, &block)
     end
