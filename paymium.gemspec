@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'simplecov'
   spec.add_development_dependency 'yard'
+  spec.add_development_dependency 'coveralls'
 
   spec.require_path = 'lib'
   spec.files        = Dir['{bin,lib}/**/*', 'LICENSE', 'README.md']

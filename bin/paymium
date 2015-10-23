@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+$:.unshift File.join(File.dirname(__FILE__), '../lib')
+
+require 'paymium'
+
+puts "Paymium API wrapper v#{Paymium::VERSION}"
+puts "This executable doesn't do anything yet"
+
