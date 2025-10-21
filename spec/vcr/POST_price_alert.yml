@@ -18,18 +18,18 @@ http_interactions:
       Content-Type:
       - application/json
       Api-Key:
-      - 22e31167eb658bc0cb5a5a45e45ead48d9ff8fb061677852c31c10bc155b7e5b
+      - 48e96b524542df67f8f475ec43903eaa828db00f67036fa83dd42328a41c9615
       Api-Nonce:
-      - '1761064163108829'
+      - '1761064652478711'
       Api-Signature:
-      - e1865390e1feeaae17014f293d4a7929cd36354ed9b990e20074ab2dfb1b072f
+      - 983c74558ca9ced4e7f5d118cf35f8949067108d73525d0ee845e0393015a1d9
   response:
     status:
       code: 201
       message: Created
     headers:
       Date:
-      - Tue, 21 Oct 2025 16:29:23 GMT
+      - Tue, 21 Oct 2025 16:37:32 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -37,21 +37,21 @@ http_interactions:
       Connection:
       - keep-alive
       Cf-Ray:
-      - 9922222baa86d618-CDG
+      - 99222e1e5ecf9ae1-CDG
       Api-Version:
       - '1.1'
       X-Username:
-      - PM-U72148448
+      -
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - eb7da3a3-408f-4af4-a369-c2498e3fe16f
+      - b476b1fe-abad-431e-842c-faff6ef708e1
       X-Ratelimit-Limit:
       - '864000'
       X-Ratelimit-Remaining:
-      - '863403'
+      - '863400'
       X-Runtime:
-      - '0.132906'
+      - '0.116968'
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Credentials:
@@ -68,6 +68,6 @@ http_interactions:
       - cloudflare
     body:
       encoding: UTF-8
-      string: ''
-  recorded_at: Tue, 21 Oct 2025 16:29:23 GMT
+      string: '""'
+  recorded_at: Tue, 21 Oct 2025 16:37:32 GMT
 recorded_with: VCR 6.3.1

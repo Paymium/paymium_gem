@@ -18,11 +18,11 @@ http_interactions:
       Content-Type:
       - application/json
       Api-Key:
-      - 22e31167eb658bc0cb5a5a45e45ead48d9ff8fb061677852c31c10bc155b7e5b
+      - 48e96b524542df67f8f475ec43903eaa828db00f67036fa83dd42328a41c9615
       Api-Nonce:
       - '1761064235592518'
       Api-Signature:
-      - 4926ae8108eed6c3633c3429045db528cc37fa680f0325938109cc001472d340
+      - 983c74558ca9ced4e7f5d118cf35f8949067108d73525d0ee845e0393015a1d9
   response:
     status:
       code: 204
@@ -37,7 +37,7 @@ http_interactions:
       Api-Version:
       - '1.1'
       X-Username:
-      - PM-U72148448
+      - PM-UXXXXXXXXX
       Cache-Control:
       - no-cache
       X-Request-Id:
