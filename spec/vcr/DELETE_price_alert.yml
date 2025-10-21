@@ -22,7 +22,7 @@ http_interactions:
       Api-Nonce:
       - '1761064235592518'
       Api-Signature:
-      - 983c74558ca9ced4e7f5d118cf35f8949067108d73525d0ee845e0393015a1d9
+      - FAKE-SIGNATURE
   response:
     status:
       code: 204
