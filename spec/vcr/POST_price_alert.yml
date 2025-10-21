@@ -18,11 +18,11 @@ http_interactions:
       Content-Type:
       - application/json
       Api-Key:
-      - 48e96b524542df67f8f475ec43903eaa828db00f67036fa83dd42328a41c9615
+      - FAKE-KEY
       Api-Nonce:
       - '1761064652478711'
       Api-Signature:
-      - 983c74558ca9ced4e7f5d118cf35f8949067108d73525d0ee845e0393015a1d9
+      - FAKE-SIGNATURE
   response:
     status:
       code: 201

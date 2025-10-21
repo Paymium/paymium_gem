@@ -16,8 +16,8 @@ RSpec.describe 'Paymium::Client' do
 
   context 'when authenticated' do
     before do
-      client.config[:key]     = '48e96b524542df67f8f475ec43903eaa828db00f67036fa83dd42328a41c9615'
-      client.config[:secret]  = 'efe6b09f82d04b464bef4077b1c2aa79136425a7d2d3dc58a3677eff601984f8'
+      client.config[:key]     = 'FAKE-KEY'
+      client.config[:secret]  = 'FAKE-SECRET'
     end
 
     it 'should issue a POST properly' do

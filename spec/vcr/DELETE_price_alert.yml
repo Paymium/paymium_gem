@@ -18,7 +18,7 @@ http_interactions:
       Content-Type:
       - application/json
       Api-Key:
-      - 48e96b524542df67f8f475ec43903eaa828db00f67036fa83dd42328a41c9615
+      - FAKE-KEY
       Api-Nonce:
       - '1761064235592518'
       Api-Signature:
@@ -37,7 +37,7 @@ http_interactions:
       Api-Version:
       - '1.1'
       X-Username:
-      - PM-UXXXXXXXXX
+      -
       Cache-Control:
       - no-cache
       X-Request-Id:
