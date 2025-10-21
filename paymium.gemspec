@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://paymium.com'
   spec.license       = 'MIT'
 
-  spec.add_dependency 'oj', '~> 2'
+  spec.add_dependency 'oj'
 
   spec.add_development_dependency 'rake',       '~> 0'
   spec.add_development_dependency 'rspec',      '~> 3'
