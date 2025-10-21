@@ -1,26 +1,28 @@
 require 'vcr'
 require 'simplecov'
-require 'coveralls'
+# require 'coveralls'
 
-SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
-  SimpleCov::Formatter::HTMLFormatter,
-  Coveralls::SimpleCov::Formatter
-]
+# SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+#   SimpleCov::Formatter::HTMLFormatter,
+#   Coveralls::SimpleCov::Formatter
+# ]
+#
+# SimpleCov.start do
+#   add_filter '/spec/'
+# end
 
-SimpleCov.start do
-  add_filter '/spec/'
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/vcr'
+  c.hook_into :webmock
+  # c.default_cassette_options = { record: :once }
 end
 
-VCR.configure do |config|
-  config.cassette_library_dir     = 'spec/cassettes'
-  config.hook_into                :webmock
-  config.default_cassette_options = { record: :once }
-end
+puts "---"
 
 require(File.expand_path('../../lib/paymium', __FILE__))
 
 Paymium.send(:remove_const, :DEFAULT_HOST)
-Paymium::DEFAULT_HOST = 'https://staging.paymium.com/api/v1'
+Paymium::DEFAULT_HOST = 'https://paymium.com/api/v1'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -43,4 +45,3 @@ RSpec.configure do |config|
   config.order = :random
   Kernel.srand config.seed
 end
-

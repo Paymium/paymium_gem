@@ -1,8 +1,8 @@
 example_id                           | status | run_time        |
 ------------------------------------ | ------ | --------------- |
-./spec/paymium/client_spec.rb[1:1]   | passed | 0.00042 seconds |
-./spec/paymium/client_spec.rb[1:2]   | passed | 0.00803 seconds |
-./spec/paymium/client_spec.rb[1:3:1] | passed | 0.00361 seconds |
-./spec/paymium/client_spec.rb[1:3:2] | passed | 0.00441 seconds |
-./spec/paymium/client_spec.rb[1:3:3] | passed | 0.00577 seconds |
-./spec/paymium_spec.rb[1:1]          | passed | 0.00058 seconds |
+./spec/paymium/client_spec.rb[1:1]   | passed | 0.00006 seconds |
+./spec/paymium/client_spec.rb[1:2]   | passed | 0.02373 seconds |
+./spec/paymium/client_spec.rb[1:3:1] | failed | 0.21539 seconds |
+./spec/paymium/client_spec.rb[1:3:2] | passed | 0.32198 seconds |
+./spec/paymium/client_spec.rb[1:3:3] | passed | 0.00162 seconds |
+./spec/paymium_spec.rb[1:1]          | passed | 0.00023 seconds |
