@@ -1,15 +1,15 @@
 require 'vcr'
 require 'simplecov'
-# require 'coveralls'
+require 'coveralls'
 
-# SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
-#   SimpleCov::Formatter::HTMLFormatter,
-#   Coveralls::SimpleCov::Formatter
-# ]
-#
-# SimpleCov.start do
-#   add_filter '/spec/'
-# end
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+  SimpleCov::Formatter::HTMLFormatter,
+  Coveralls::SimpleCov::Formatter
+]
+
+SimpleCov.start do
+  add_filter '/spec/'
+end
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/vcr'
