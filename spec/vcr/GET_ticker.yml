@@ -346,7 +346,7 @@ http_interactions:
   recorded_at: Fri, 23 Oct 2015 11:17:37 GMT
 - request:
     method: get
-    uri: https://staging.paymium.com/api/v1/data/eur/ticker
+    uri: https://paymium.com/api/v1/data/eur/ticker
     body:
       encoding: US-ASCII
       string: ''
@@ -358,7 +358,7 @@ http_interactions:
       User-Agent:
       - Ruby
       Host:
-      - staging.paymium.com
+      - paymium.com
       Content-Type:
       - application/json
   response:
