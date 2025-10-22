@@ -1,11 +1,11 @@
 ---
 http_interactions:
 - request:
-    method: delete
-    uri: https://staging.paymium.com/api/v1/user/price_alerts/4
+    method: post
+    uri: https://paymium.com/api/v1/user/price_alerts
     body:
-      encoding: US-ASCII
-      string: ''
+      encoding: UTF-8
+      string: '{}'
     headers:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
@@ -14,38 +14,42 @@ http_interactions:
       User-Agent:
       - Ruby
       Host:
-      - staging.paymium.com
+      - paymium.com
       Content-Type:
       - application/json
       Api-Key:
-      - 48e96b524542df67f8f475ec43903eaa828db00f67036fa83dd42328a41c9615
+      - FAKE-KEY
       Api-Nonce:
-      - 1445600101143417
+      - FAKE-NONCE
       Api-Signature:
-      - b1ccc03691d53f62fa9cca83c004d731319695fe2c333d68d32d979e374670d3
+      - FAKE-SIGNATURE
   response:
     status:
-      code: 204
-      message: No Content
+      code: 422
+      message: Unprocessable Entity
     headers:
       Server:
       - nginx/1.7.8
       Date:
-      - Fri, 23 Oct 2015 11:35:02 GMT
+      - Fri, 23 Oct 2015 11:42:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Status:
-      - 204 No Content
+      - 422 Unprocessable Entity
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 8df7b378-2366-4f31-9ecc-2d5dfd66f6cf
+      - cb566a94-8edb-4bf3-b1ab-2c1b2fb3a452
       X-Ratelimit-Limit:
       - '86400'
       X-Ratelimit-Remaining:
-      - '86352'
+      - '86351'
       X-Runtime:
-      - '0.065015'
+      - '0.046656'
       X-Powered-By:
       - Phusion Passenger 4.0.55
       Access-Control-Allow-Origin:
@@ -58,7 +62,8 @@ http_interactions:
       - Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization
     body:
       encoding: UTF-8
-      string: ''
-    http_version: 
-  recorded_at: Fri, 23 Oct 2015 11:35:02 GMT
+      string: '{"errors":["Token can''t be blank","Notify above is not a number","Notify
+        below is not a number"]}'
+    http_version:
+  recorded_at: Fri, 23 Oct 2015 11:42:01 GMT
 recorded_with: VCR 2.9.3

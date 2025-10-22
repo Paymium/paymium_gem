@@ -11,16 +11,16 @@ SimpleCov.start do
   add_filter '/spec/'
 end
 
-VCR.configure do |config|
-  config.cassette_library_dir     = 'spec/cassettes'
-  config.hook_into                :webmock
-  config.default_cassette_options = { record: :once }
+VCR.configure do |c|
+  c.cassette_library_dir = 'spec/vcr'
+  c.hook_into :webmock
+  c.default_cassette_options = { record: :once }
 end
 
 require(File.expand_path('../../lib/paymium', __FILE__))
 
 Paymium.send(:remove_const, :DEFAULT_HOST)
-Paymium::DEFAULT_HOST = 'https://staging.paymium.com/api/v1'
+Paymium::DEFAULT_HOST = 'https://paymium.com/api/v1'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -43,4 +43,3 @@ RSpec.configure do |config|
   config.order = :random
   Kernel.srand config.seed
 end
-

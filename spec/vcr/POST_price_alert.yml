@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://paymium.com/api/v1/user/price_alerts
+    body:
+      encoding: UTF-8
+      string: '{"notify_above":10,"notify_below":5,"token":"hello token!"}'
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - paymium.com
+      Content-Type:
+      - application/json
+      Api-Key:
+      - FAKE-KEY
+      Api-Nonce:
+      - FAKE-NONCE
+      Api-Signature:
+      - FAKE-SIGNATURE
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Tue, 21 Oct 2025 16:37:32 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Cf-Ray:
+      - 99222e1e5ecf9ae1-CDG
+      Api-Version:
+      - '1.1'
+      X-Username:
+      -
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - b476b1fe-abad-431e-842c-faff6ef708e1
+      X-Ratelimit-Limit:
+      - '864000'
+      X-Ratelimit-Remaining:
+      - '863400'
+      X-Runtime:
+      - '0.116968'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, DELETE, POST, OPTIONS, PUT, PATCH
+      Access-Control-Allow-Headers:
+      - Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,Api-Key,Api-Token,Api-Signature,Api-Nonce,DelegateAuthority
+      Access-Control-Expose-Headers:
+      - X-Token,Pagination
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+    body:
+      encoding: UTF-8
+      string: '""'
+  recorded_at: Tue, 21 Oct 2025 16:37:32 GMT
+recorded_with: VCR 6.3.1

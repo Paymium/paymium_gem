@@ -13,15 +13,17 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://paymium.com'
   spec.license       = 'MIT'
 
-  spec.add_dependency 'oj', '~> 2'
+  spec.required_ruby_version = Gem::Requirement.new(">= 3.2.0")
+
+  spec.add_dependency 'oj'
 
   spec.add_development_dependency 'rake',       '~> 0'
   spec.add_development_dependency 'rspec',      '~> 3'
-  spec.add_development_dependency 'simplecov',  '~> 0.10.0'
+  spec.add_development_dependency 'simplecov',  '~> 0.16.1'
   spec.add_development_dependency 'yard',       '~> 0.9.20'
-  spec.add_development_dependency 'coveralls',  '~> 0.7'
-  spec.add_development_dependency 'vcr',        '~> 2.9'
-  spec.add_development_dependency 'webmock',    '~> 1.0'
+  spec.add_development_dependency 'coveralls',  '~> 0.8.23'
+  spec.add_development_dependency 'vcr',        '~> 6.3.1'
+  spec.add_development_dependency 'webmock',    '~> 3'
 
   spec.require_path = 'lib'
   spec.files        = Dir['{bin,lib}/**/*', 'LICENSE', 'README.md']
