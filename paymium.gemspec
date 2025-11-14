@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'paymium/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'paymium'
+  spec.name          = 'paymium_api'
   spec.version       = Paymium::VERSION
-  spec.authors       = ['Nicolas PAPON', 'David FRANCOIS']
-  spec.email         = ['nicolas.papon@paymium.com', 'david.francois@paymium.com']
+  spec.authors       = ['Paymium Tech']
+  spec.email         = ['tech@paymium.com']
   spec.summary       = 'Paymium API client'
   spec.description   = 'The client handles authentication and enables users to directly issue requests to the Paymium API'
   spec.homepage      = 'https://paymium.com'
